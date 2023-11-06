@@ -1,4 +1,4 @@
-import React, {useContext, useState } from 'react'
+import React, {useState } from 'react'
 import {AiFillTag, AiOutlineClose, AiOutlineMenu, AiOutlineSearch} from 'react-icons/ai';
 import {BsFillCartFill, BsFillSaveFill} from 'react-icons/bs';
 import {TbTruckDelivery} from 'react-icons/tb';
