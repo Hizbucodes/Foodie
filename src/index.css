@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lists:hover li{
+    transition: all .5s ease;
+    opacity: .5;
+    filter: blur(1px);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.lists li:hover{
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1.1);
+}
+
+.filter-type>*{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #dcdcdc;
+}
+.filter-price>*{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #dcdcdc;
+}
+
+.aboutonline{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.footer-links li:hover{
+    color: #dcdcdc;
+}
+
+.item-amount{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 
 }

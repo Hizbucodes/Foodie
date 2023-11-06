@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Missing from "./components/Missing";
+import FoodieHome from "./pages/FoodieHome";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HelmetProvider>
+      <Helmet>
+        <title>Foodie - App</title>
+      </Helmet>
+   <div>
+      <Routes>
+        <Route path="/" element={<FoodieHome/>}/>
+        <Route path="*" element={<Missing/>}/>
+      </Routes>
+
+   </div>
+   </HelmetProvider>
   );
 }
 
