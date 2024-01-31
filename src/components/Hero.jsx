@@ -3,7 +3,7 @@ import heroImage from '../assets/burger-2041192.jpg'
 
 const Hero = () => {
   return (
-    <div className='max-w-[1640px] mx-auto p-4'>
+    <div className='max-w-[1536px] mx-auto p-4'>
         <div className='max-h-[500px] relative'>
             {/* Overlay */}
             <div className='rounded-3xl absolute w-full h-full text-gray-200 max-h-[500px] bg-black/40 flex flex-col justify-center'>

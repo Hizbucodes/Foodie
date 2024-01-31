@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     const currentYear = new Date();
   return (
-    <footer className=' max-w-[1640px] mx-auto h-[700px] rounded-t-xl'>
+    <footer className=' max-w-[1536px] mx-auto h-[700px] rounded-t-xl'>
         <div className='flex justify-between bg-gray-200 p-12 rounded-t-xl'>
             <div className='hidden xl:block h-[100%]'>
                 <p className='font-bold text-4xl text-gray-700'>For better experience, download<br></br> the Foodie app now</p>

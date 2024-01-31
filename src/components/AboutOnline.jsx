@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutOnline = () => {
   return (
-    <div className='max-w-[1640px] mx-auto border rounded-xl p-6 mb-6 space-y-8 text-gray-500 aboutonline'>
+    <div className='max-w-[1536px] mx-auto border rounded-xl p-6 mb-6 space-y-8 text-gray-500 aboutonline'>
         <div>
             <h1 className='font-bold text-4xl'>Why Order Food Online in Sri Lanka with Foodie?</h1>
         </div>
